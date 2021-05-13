@@ -25,7 +25,6 @@ public class Usuario {
 	private String usuario;
 	
 	@NotNull
-	@Size(min= 5, max = 100)
 	private String senha;
 
 	public long getId() {
